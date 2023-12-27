@@ -13,11 +13,6 @@ const NavBar = () => {
       <div className={styles['nav-container']}>
         <ul className={styles['nav-list']}>
           <li className={styles['nav-items']}>
-            <NavLink to='/home' 
-            className={styles['nav-links']}> Glass Studios
-            </NavLink>
-          </li>
-          <li className={styles['nav-items']}>
             <NavLink to='/home' className={styles['nav-links']}> Home 
             </NavLink>
           </li>
