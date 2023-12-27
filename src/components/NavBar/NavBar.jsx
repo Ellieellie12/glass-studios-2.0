@@ -9,32 +9,32 @@ const NavBar = () => {
 
   return (
   <> 
-    <nav className={styles['nav-bar']}>
+    <nav className={styles.nav}>
       <div className={styles['nav-container']}>
-        <ul>
-          {/* <li className={styles['nav-items']}>
-            <NavLink to='/' 
-            className={styles['nav-logo']}> Glass Studios
-            </NavLink>
-          </li> */}
+        <ul className={styles['nav-list']}>
           <li className={styles['nav-items']}>
-            <NavLink to='/' className={styles['nav-links']}> Home 
+            <NavLink to='/home' 
+            className={styles['nav-links']}> Glass Studios
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/' className={styles['nav-links']}> About 
+            <NavLink to='/home' className={styles['nav-links']}> Home 
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/' className={styles['nav-links']}> Studios 
+            <NavLink to='/about' className={styles['nav-links']}> About 
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/' className={styles['nav-links']}> Merch 
+            <NavLink to='/studios' className={styles['nav-links']}> Studios 
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/' className={styles['nav-links']}> Contact
+            <NavLink to='/merchandise' className={styles['nav-links']}> Merch 
+            </NavLink>
+          </li>
+          <li className={styles['nav-items']}>
+            <NavLink to='/contact' className={styles['nav-links']}> Contact
             </NavLink>
           </li>
         </ul>
