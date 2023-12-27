@@ -9,18 +9,35 @@ const NavBar = () => {
 
   return (
   <> 
-    <nav className='nav-group'>
-      <div className='nav-container'>
-        <NavLink to='/'> Home 
-        </NavLink>
-        <NavLink to='/'> About 
-        </NavLink>
-        <NavLink to='/'> Studios 
-        </NavLink>
-        <NavLink to='/'> Merch 
-        </NavLink>
-        <NavLink to='/'> Contact
-        </NavLink>
+    <nav className={styles['nav-bar']}>
+      <div className={styles['nav-container']}>
+        <ul>
+          {/* <li className={styles['nav-items']}>
+            <NavLink to='/' 
+            className={styles['nav-logo']}> Glass Studios
+            </NavLink>
+          </li> */}
+          <li className={styles['nav-items']}>
+            <NavLink to='/' className={styles['nav-links']}> Home 
+            </NavLink>
+          </li>
+          <li className={styles['nav-items']}>
+            <NavLink to='/' className={styles['nav-links']}> About 
+            </NavLink>
+          </li>
+          <li className={styles['nav-items']}>
+            <NavLink to='/' className={styles['nav-links']}> Studios 
+            </NavLink>
+          </li>
+          <li className={styles['nav-items']}>
+            <NavLink to='/' className={styles['nav-links']}> Merch 
+            </NavLink>
+          </li>
+          <li className={styles['nav-items']}>
+            <NavLink to='/' className={styles['nav-links']}> Contact
+            </NavLink>
+          </li>
+        </ul>
       </div>
     </nav>
   </>
