@@ -5,12 +5,16 @@ import styles from '../NavBar/NavBar.module.css'
 
 
 
+
 const NavBar = () => {
 
   return (
   <> 
     <nav className={styles.nav}>
       <div className={styles['nav-container']}>
+        {/* <NavLink className={styles['nav-logo']}>
+          <img src={} alt="" />
+        </NavLink> */}
         <ul className={styles['nav-list']}>
           <li className={styles['nav-items']}>
             <NavLink to='/' className={styles['nav-links']}> Home 
