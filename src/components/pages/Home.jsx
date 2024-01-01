@@ -1,11 +1,11 @@
 // import '../../App.css'
 
-import '../pages/Home.module.css'
+import styles from '../pages/Home.module.css'
 
 const Home = () => {
   return (  
     <>
-      <h1 className='home-title'>GLASS STUDIOS 2.0</h1>
+      <h1 className={styles['home-title']}>GLASS STUDIOS 2.0</h1>
       {/* <p className='home-slogan'>"Where timeless music is made"</p> */}
     
     </>
