@@ -30,14 +30,10 @@
 .nav-links {
   color: black;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 2rem;
   margin: 0 0.5rem;
-  /* margin: 50px; */
-  /* margin-left: 100px; */
-  /* margin-left: 20px; */
   height: 100%;
 }
 
