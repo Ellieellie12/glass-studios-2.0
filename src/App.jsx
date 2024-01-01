@@ -26,10 +26,7 @@ function App() {
       <Route path='/studios' element={<Studios />} />
       <Route path='/merchandise' element={<Merch />} />
       <Route path='/contact' element={<Contact />} />
-
-
-
-      </Routes>
+    </Routes>
 
   </>
   )
