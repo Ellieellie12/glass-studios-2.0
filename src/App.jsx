@@ -5,13 +5,13 @@ import {Routes, Route } from 'react-router-dom'
 
 
 //components
-import NavBar from './components/NavBar/NavBar'
+// import NavBar from './components/NavBar/NavBar'
 import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Studios from './components/pages/Studios'
 import Merch from './components/pages/Merch'
 import Contact from './components/pages/Contact'
-import LandingPage from './components/Landing/LandingPage'
+import Landing from './components/pages/Landing'
 
 
 //styles
@@ -22,8 +22,8 @@ function App() {
 
   return (
   <>
-    <LandingPage />
-    <NavBar />
+    <Landing />
+    {/* <NavBar /> */}
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />

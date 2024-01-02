@@ -1,8 +1,8 @@
 import styles from '../pages/Landing.module.css'
 
-onst Landing = () => {
+const Landing = () => {
   return (  
-    <h1 className={styles['landing-title']></h1>
+    <h1 className={styles['landing-title']}>GLASS STUDIOS 2.0</h1>
   )
 }
 
