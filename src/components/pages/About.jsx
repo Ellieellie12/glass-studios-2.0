@@ -1,13 +1,13 @@
 import '../../App.css'
 
+//styles
 import styles from '../pages/About.module.css'
 
 
 const About = () => {
   return ( 
     <> 
-    <h1>ABOUT</h1>
-    <p className={styles['about-slogan']}>"Where Timeless Music is Made"</p>
+      <h1 className={styles['about-title']}>About Us </h1>
     </>
 
   );

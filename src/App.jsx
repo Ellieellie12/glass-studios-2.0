@@ -17,6 +17,7 @@ import Contact from './components/pages/Contact'
 import './App.css'
 
 function App() {
+
   return (
   <>
     <NavBar />
@@ -27,7 +28,6 @@ function App() {
       <Route path='/merchandise' element={<Merch />} />
       <Route path='/contact' element={<Contact />} />
     </Routes>
-
   </>
   )
 }
