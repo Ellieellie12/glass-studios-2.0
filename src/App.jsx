@@ -11,15 +11,18 @@ import About from './components/pages/About'
 import Studios from './components/pages/Studios'
 import Merch from './components/pages/Merch'
 import Contact from './components/pages/Contact'
+import LandingPage from './components/Landing/LandingPage'
 
 
 //styles
 import './App.css'
 
+
 function App() {
 
   return (
   <>
+    <LandingPage />
     <NavBar />
     <Routes>
       <Route path='/' element={<Home />} />

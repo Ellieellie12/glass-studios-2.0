@@ -1,9 +1,12 @@
 import '../../App.css'
 
+//styles
+import styles from '../pages/Contact.module.css'
+
 
 const Contact = () => {
   return ( 
-    <h1>CONTACT</h1>
+    <h1 className={styles['contact-title']}>CONTACT</h1>
 
   );
 }
