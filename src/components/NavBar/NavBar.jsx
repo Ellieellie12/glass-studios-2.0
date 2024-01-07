@@ -10,7 +10,7 @@ const NavBar = () => {
 
   return (
   <> 
-    <nav className={styles.nav}>
+    <nav className={styles['nav']}>
       <div className={styles['nav-container']}>
         {/* <NavLink className={styles['nav-logo']}>
           <img src={} alt="" />
