@@ -8,7 +8,14 @@ const Studios = () => {
     <>
     <div>
       <h1 className={styles['studio-title']}>STUDIOS</h1>
-      <div className={styles['studio-card-container']}></div>
+      <div className={styles['studio-card-container']}>
+        <div className={styles['card-wrapper']}>
+          <ul className={styles['card-item']}>
+            
+          </ul>
+
+        </div>
+      </div>
     </div>
 
     </>
