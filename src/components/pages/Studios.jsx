@@ -9,7 +9,7 @@ import CardItem from '../Carditem/CardItem'
 const Studios = () => {
   return ( 
     <>
-    <div>
+    <div className={styles['cards']}>
       <h1 className={styles['studio-title']}>STUDIOS</h1>
       <div className={styles['studio-card-container']}>
         <div className={styles['card-wrapper']}>
@@ -18,7 +18,6 @@ const Studios = () => {
             src='blue.jpg'
             text='Studio 1'
             path='/studioone'
-
             />
 
           </ul>

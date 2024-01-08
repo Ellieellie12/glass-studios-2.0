@@ -10,10 +10,10 @@ const CardItem = (props) => {
   return ( 
     <>
       <li className={styles['cards-item']}>
-        <NavLink className={styles['card-link']}>
+        <NavLink className={styles['card-link']} to={props.path}>
           <figure className={styles['pic-wrap']} >
             <img 
-            src='' 
+            src={props.src}
             alt='studio image' 
             className={styles['studio-image']}
             />
