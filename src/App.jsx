@@ -11,7 +11,7 @@ import About from './components/pages/About'
 import Studios from './components/pages/Studios'
 import Merch from './components/pages/Merch'
 import Contact from './components/pages/Contact'
-
+import StudioOne from './components/pages/StudioOne'
 
 //styles
 import './App.css'
@@ -28,6 +28,7 @@ function App() {
       <Route path='/studios' element={<Studios />} />
       <Route path='/merchandise' element={<Merch />} />
       <Route path='/contact' element={<Contact />} />
+      <Route path='/studioone' element={<StudioOne />} />
     </Routes>
   </>
   )
