@@ -21,6 +21,30 @@ const Studios = () => {
             path='/studioone'
             className={styles['temp-image']}
             />
+            <CardItem 
+            src='images/temp.jpg'
+            text='Studio 1'
+            path='/studioone'
+            className={styles['temp-image']}
+            />
+            <CardItem 
+            src='images/temp.jpg'
+            text='Studio 1'
+            path='/studioone'
+            className={styles['temp-image']}
+            />
+            <CardItem 
+            src='images/temp.jpg'
+            text='Studio 1'
+            path='/studioone'
+            className={styles['temp-image']}
+            />
+            <CardItem 
+            src='images/temp.jpg'
+            text='Studio 1'
+            path='/studioone'
+            className={styles['temp-image']}
+            />
 
           </ul>
 

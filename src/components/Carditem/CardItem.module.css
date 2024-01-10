@@ -1,8 +1,7 @@
 /* .cards-item {
   display: flex;
   flex: 1;
-
-}
+}  */
 
 .card-link {
   display: flex;
@@ -14,9 +13,11 @@
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
-} */
+  background-color: grey;
+  transform: scale(0.6);
+} 
 
 
 img {
-  transform: scale(0.5);
+  transform: scale(0.4);
 }
