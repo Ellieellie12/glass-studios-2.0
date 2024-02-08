@@ -9,9 +9,9 @@ import styles from '../Carditem/CardItem.module.css'
 const CardItem = (props) => {
   return ( 
     <>
-      <li className={styles['cards-item']}>
+      <li className={styles['cards-list-item']}>
         <NavLink className={styles['card-link']} to={props.path}>
-          <figure className={styles['pic-wrap']} >
+          <figure className={styles['studio-image-wrap']} >
             <img 
             src={props.src}
             alt='studio image' 
