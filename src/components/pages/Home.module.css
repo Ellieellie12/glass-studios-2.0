@@ -1,13 +1,26 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .home-title {
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex;
+  /* position:relative; */
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 150px; */
   /* align-items: center; */
-  /* font-size: 40px; */
+  font-size: 40px;
   /* color: black; */
   /* height: 90vh */
 }
 
 .home-slogan {
 display: flex;
+/* position: absolute; */
+justify-content: center;
+text-align: center;
 }
 
