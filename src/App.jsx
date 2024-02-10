@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 
 //npm modules
-import {Routes, Route } from 'react-router-dom'
+import {Routes, Route,} from 'react-router-dom'
 
 
 //components
@@ -18,18 +18,19 @@ import './App.css'
 
 
 function App() {
+  
 
   return (
   <>
     <NavBar />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/studios' element={<Studios />} />
-      <Route path='/merchandise' element={<Merch />} />
-      <Route path='/contact' element={<Contact />} />
-      <Route path='/studioone' element={<StudioOne />} />
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/studios' element={<Studios />} />
+        <Route path='/merchandise' element={<Merch />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/studioone' element={<StudioOne />} />
+      </Routes>
   </>
   )
 }
