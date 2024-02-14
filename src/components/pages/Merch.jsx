@@ -4,7 +4,7 @@ import styles from '../pages/Merch.module.css'
 
 const Merch = () => {
   return ( 
-    <h1 className={styles['merch-title']}>MERCH</h1>
+    <h1 className={styles['merch-title']}>MERCH PAGE</h1>
 
   )
 }
