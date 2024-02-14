@@ -1,6 +1,24 @@
-body {
+html, body {
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(221,177,208,1) 21%, rgba(171,184,225,1) 75%, rgba(148,187,233,1) 98%);
+  font-weight: 800;
+  height: 100%;
+}
+
+/* body {
+  font-family: Arial;
+} */
+
+.title {
+font-family: Arial;
+}
+
+svg {
+  display: block;
+  font: 10.5em 'Montserrat';
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .home-container {
@@ -37,8 +55,8 @@ position: relative;
 /* align-items: center; */
 }
 
-#grad {
+/* #grad {
 
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(221,177,208,1) 21%, rgba(171,184,225,1) 75%, rgba(148,187,233,1) 98%);
-}
+} */
