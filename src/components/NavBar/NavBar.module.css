@@ -1,5 +1,8 @@
 .nav {
-  background-color: grey;
+  /* background-color: grey; */
+  /* background-color: black; */
+  /* border-style: hidden; */
+  bottom: solid white;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -14,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* opacity: 0.2; */
   /* width: 100%; */
   /* height: 80px; */
   /* max-width: 1920px; */
@@ -22,22 +26,27 @@
 
 .nav-list {
   display: flex;
-  /* margin-left: 135%; */
-  padding: 3px;
+  /* padding: 3px; */
 }
 
 .nav-items {
   list-style: none;
   /* height: 80px; */
 }
+
 .nav-links {
-  color: black;
+  color: white;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 2rem;
   margin: 0 0.5rem;
-  /* height: 100%; */
+  opacity: 0.3;
+}
+
+.nav-links:hover {
+  color: blue;
+  transition-duration: 1s;
 }
 
 

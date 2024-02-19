@@ -17,23 +17,23 @@ const NavBar = () => {
         </NavLink> */}
         <ul className={styles['nav-list']}>
           <li className={styles['nav-items']}>
-            <NavLink to='/' className={styles['nav-links']}> Home 
+            <NavLink to='/' className={styles['nav-links']}> HOME
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/about' className={styles['nav-links']}> About 
+            <NavLink to='/about' className={styles['nav-links']}> ABOUT 
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/studios' className={styles['nav-links']}> Studios 
+            <NavLink to='/studios' className={styles['nav-links']}> STUDIOS
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/merchandise' className={styles['nav-links']}> Merch 
+            <NavLink to='/merchandise' className={styles['nav-links']}> MERCH 
             </NavLink>
           </li>
           <li className={styles['nav-items']}>
-            <NavLink to='/contact' className={styles['nav-links']}> Contact
+            <NavLink to='/contact' className={styles['nav-links']}> CONTACT
             </NavLink>
           </li>
         </ul>
