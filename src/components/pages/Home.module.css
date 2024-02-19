@@ -3,8 +3,8 @@
 html, body {
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(221,177,208,1) 21%, rgba(171,184,225,1) 75%, rgba(148,187,233,1) 98%);
-  font-weight: 800;
   height: 100%;
+  font-weight: 800;
 }
 
 /* body {
@@ -12,20 +12,23 @@ html, body {
 } */
 
 .title {
+display: flex;
 font-family: Arial;
+justify-content: space-between;
+
 }
 
 svg {
   display: block;
   font: 10.5em 'Montserrat';
-  width: 960px;
+  width: 1400px;
   height: 300px;
   margin: 0 auto;
 }
 
 .text-copy {
   fill: none;
-  stroke: white;
+  stroke: black;
   stroke-dasharray: 6% 29%;
   stroke-width: 5px;
   stroke-dashoffset: 0%;
@@ -34,29 +37,47 @@ svg {
 
 .text-copy:nth-child(1){
 stroke: #4D163D;
+/* stroke: #ba2690; */
 animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-stroke: #840037;
+/* stroke: #840037; */
+stroke: #659ecc;
 animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-stroke: #BD0034;
+/* stroke: #BD0034; */
+stroke: #8ddcaf;
 animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-stroke: #BD0034;
+/* stroke: #BD0034; */
+stroke: #0048bd;
 animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-stroke: #FDB731;
+/* stroke: #FDB731; */
+stroke: #ffeac3;
 animation-delay: -5s;
 }
 
+/* addition begins here  */
+.text-copy:nth-child(6){
+  stroke: #3150fd;
+  animation-delay: -6s;
+}
+
+.text-copy:nth-child(7){
+    stroke: #b8eee4;
+    animation-delay: -7s;
+} 
+
+
+/* original */
 @keyframes stroke-offset{
 100% {stroke-dashoffset: -35%;}
 }
@@ -68,16 +89,13 @@ animation-delay: -5s;
 
 
 
-
-
-
-/* .home-container {
+.home-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  /* width: 90vw; */
-/* } */ 
+  /* height: 90vh;
+  width: 90vw;  */
+} 
 
 
 
