@@ -1,3 +1,9 @@
+.vinyl-img {
+  position: absolute;
+  z-index: 0;
+  height: auto;
+  width: 540px;
+}
 
 .about-container {
   display: flex;
@@ -9,6 +15,8 @@
 
 .about-title {
   display: flex;
+  position: relative;
+  z-index: 1;
   justify-content: center;
   align-items: center;
   color: white;
