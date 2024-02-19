@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 html, body {
   background: rgb(238,174,202);
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(221,177,208,1) 21%, rgba(171,184,225,1) 75%, rgba(148,187,233,1) 98%);
@@ -21,15 +23,74 @@ svg {
   margin: 0 auto;
 }
 
-.home-container {
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+stroke: #4D163D;
+animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+stroke: #840037;
+animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+stroke: #BD0034;
+animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+stroke: #BD0034;
+animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+stroke: #FDB731;
+animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+100% {stroke-dashoffset: -35%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .home-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 90vh;
   /* width: 90vw; */
-}
+/* } */ 
 
-.home-title {
+
+
+
+
+
+
+
+
+
+
+
+/* .home-title {
   display: flex;
   justify-content: center;
   position:absolute;
@@ -41,19 +102,19 @@ svg {
   /* position: relative; */
   /* margin-top: 150px; */
   /* align-items: center; */
-  font-size: 40px;
+  /* font-size: 40px; */
   /* color: black; */
   /* height: 90vh */
-}
+/* } */ 
 
-.home-slogan {
+/* .home-slogan {
 display: flex;
 position: relative;
 /* justify-content: center; */
 /* position: absolute; */
 /* text-align: center; */
 /* align-items: center; */
-}
+/* } */ 
 
 /* #grad { */
 /* 
