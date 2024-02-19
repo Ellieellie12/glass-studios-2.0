@@ -11,6 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   font-size: 50px;
   margin-top: -30%;
   margin-bottom: 25px;
@@ -21,5 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   
 }
