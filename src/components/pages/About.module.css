@@ -1,8 +1,9 @@
 .vinyl-img {
   position: absolute;
   z-index: 0;
-  height: auto;
-  width: 540px;
+  /* height: auto; */
+  margin-right: 50%;
+  width: 600px;
 }
 
 .about-container {
@@ -30,6 +31,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
   color: white;
   
 }
