@@ -15,7 +15,7 @@ const About = () => {
           <img className={styles['vinyl-img']} src={phototwo} alt='pink and yellow vinyl'/>
         
         <h1 className={styles['about-title']}>Where Timeless Music Is Made </h1>
-        <p className={styles['about-paragraph']}>Glass Studios is all about creating a home away from home for our clientele.</p>
+        <p className={styles['about-paragraph']}>Glass Studios is all about creating a home away from home for our clientele...</p>
       </div>
     </>
 
