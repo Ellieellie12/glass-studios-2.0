@@ -1,9 +1,13 @@
-.img-container {
+
+/* .img-container {
+  /* display: flex; */
   /* position: absolute; */
-  background-image: url('../../../public/images/sunvinyl.jpg');
-  background-size: cover;
-  height: 90vh;
-}
+  /* background-image: url('../../../images/aboutpage.jpg'); */
+  /* background-size: cover; */
+  /* height: 90vh; */
+  /* height: auto; */
+  /* width: inherit; */
+/* } */ 
 
 /* .sun-img {
   position: absolute;
@@ -21,34 +25,47 @@
 
 
 
-/* .main-container {
-  position: absolute;
-  background-image: url('../../../public/images/vinylcopy.jpg');
-  /* background: no-repeat; */
-  /* background-size: cover; */
-  /* height: 120%; */
-  /* width: 1%; */
-
-/* } */ 
-
-.about-container {
+.main-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: sticky;
+  /* z-index: 1; */
+  /* position: absolute;  */
+  height: 100vh;
+  /* width: 80px; */
+  /* height: inherit; */
+  /* margin-top: 10px; */
+  /* margin-left: 45%; */
+
+}
+
+.grad-img {
+  /* display: flex; */
+  align-items: center;
+}
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: inherit; */
+  /* position: relative; */
   /* height: 90vh; */
   border: solid white;
 }
 
 .about-title {
   display: flex;
-  /* position: relative; */
-  z-index: 1;
-  justify-content: center;
+  position: relative;
+  /* z-index: 1; */
+  /* justify-content: right; */
   align-items: center;
   color: white;
   font-size: 50px;
+  /* margin-left: 100%; */
+  /* margin-right: -120%; */
   /* margin-top: -75%; */
   /* margin-top: -30%; */
   /* margin-bottom: 25px; */
@@ -59,9 +76,10 @@
 
 .about-paragraph {
   display: flex;
+  /* position: absolute; */
   justify-content: center;
   align-items: center;
-  /* position: relative; */
-  z-index: 1;
+  position: relative;
+  /* z-index: 1; */
   color: white;
 }
