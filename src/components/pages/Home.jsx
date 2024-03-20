@@ -13,8 +13,8 @@ const Home = () => {
         {/* <h1 className={styles['home-title']}>GLASS STUDIOS 2.0</h1> */}
         <svg viewBox="0 0 1400 400">
         <symbol className={styles['title']} id="s-text">
-          <text textAnchor="middle" x='50%' y="80%">GLASS STUDIOS 2.0</text>
-          {/* <text textAnchor="middle" x='50%' y="80%">GLASS STUDIOS </text> */}
+          {/* <text textAnchor="middle" x='50%' y="80%">GLASS STUDIOS 2.0</text> */}
+          <text textAnchor="middle" x='50%' y="80%">GLASS STUDIOS </text>
         </symbol>
 
         <g className= "g-ants">
