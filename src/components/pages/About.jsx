@@ -1,6 +1,6 @@
 import '../../App.css'
 
-// import photo from '/images/aboutpage.jpg'
+import photo from '/images/aboutpage.jpg'
 
 // import phototwo from '../../../public/images/vinyltwo.jpg'
 // import photothree from '../../../public/images/recording.jpg'
@@ -14,8 +14,10 @@ const About = () => {
   return ( 
     <> 
       <div className={styles['main-container']}>
-        {/* <img className={styles['grad-img']} src={photo} alt='gradient blue and green backdrop' /> */}
+        <div className={styles['about-container']}>
           <h1 className={styles['about-title']}>Where Timeless Music Is Made </h1>
+        </div>
+        <img className={styles['grad-img']} src={photo} alt='gradient blue and green backdrop' />
           <p className={styles['about-paragraph']}>Glass Studios is all about creating a home away from home for our clientele.</p>
       </div>
     </>

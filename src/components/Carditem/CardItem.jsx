@@ -14,7 +14,7 @@ const CardItem = (props) => {
           <figure className={styles['studio-image-wrap']} >
             <img 
             src={props.src}
-            alt='studio image' 
+            alt='studio image 1' 
             className={styles['studio-image']}
             />
           </figure>
